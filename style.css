@@ -63,8 +63,7 @@ body{
     border: 0.01px solid;
     border-color: gray;
     border-radius: 40px 0px 0px 40px;
-    
-    
+ 
    
  }
 
@@ -90,4 +89,41 @@ body{
 
  #mic-image{
     height: 1.7em;
+}
+
+.right-top{
+    display: flex;
+    margin-left: 30em;
+    margin-top: 1.1em;
+    background-color: transparent;
+    
+}
+
+#create-button{
+    height: 4em;
+    border: none;
+    
+}
+#upload-image{
+    height: 1.7em;
+}
+
+#notification{
+    height: 4em;
+    border: none;
+    margin-left: 2em;
+}
+#notification-image{
+    height: 1.7em;
+}
+
+#profile{
+    height: 4em;
+    width: 4em;
+    border: none;
+    margin-left: 2em;
+    border-radius: 70px;
+}
+#profile-image{
+    height: 4em;
 }
