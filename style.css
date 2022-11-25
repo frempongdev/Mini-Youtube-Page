@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .head-block{
@@ -161,4 +162,39 @@ body{
     width: 80em; 
     height: 50em;
     margin-left: 5em;   
+}
+
+#video-title{
+    margin-left: 3.2em;
+    margin-top: 0.2em;  
+}
+
+.video-details{
+    height: 15em;
+}
+
+.accounts-sub{
+    display: flex;
+}
+
+#account-pic{
+    border: none;
+    background-color: transparent;
+    height: 5em;
+    width: 5em;
+    margin-left: 5em;
+}
+
+#accPic{
+    height: 5em;
+    width: 5em;
+    
+    border: none;
+    border-radius: 70px;
+    
+    
+}
+
+.profile-details{
+    
 }
