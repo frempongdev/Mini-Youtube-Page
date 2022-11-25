@@ -1,0 +1,36 @@
+body{
+    height: 2000px;
+}
+
+#top-header{
+    display: block;
+    position:fixed;
+    width: 100%;
+}
+
+
+.header-class {
+    /* background-color: rebeccapurple; */
+    /* position: fixed; */
+    display: flex;
+    height: 4em;
+}
+
+.menu-icon{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: 0.75rem;
+    margin-left: 0.7rem;
+    height: 1.5em;
+    
+}
+
+.youtube-logo{
+    border: none;
+    background-color: transparent;
+    width: 5rem;
+    position: relative;
+    top:0.3rem;
+    margin-left: 0.4rem;
+}
