@@ -1,5 +1,14 @@
 body{
     height: 2000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+.head-block{
+    background-color: red;
+    margin-top: 0%;
+    
 }
 
 #top-header{
@@ -11,10 +20,11 @@ body{
 
 
 .header-class {
-    /* background-color: rebeccapurple; */
+    background-color:white;
     
     display: flex;
     height: 4em;
+    margin-top: 0px;
 }
 
 .menu-icon{
@@ -131,4 +141,24 @@ body{
 }
 #profile-image{
     height: 4em;
+}
+
+.body-block{
+    position:static;
+    margin-top: 5em;
+    
+    display: flex;
+    height:max-content;
+}
+
+.left-side{
+    background-color: red;
+    
+    margin-left: 7em;
+}
+
+#embeded-video{
+    width: 80em; 
+    height: 50em;
+    margin-left: 5em;   
 }
