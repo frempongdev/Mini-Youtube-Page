@@ -16,6 +16,7 @@ body{
     margin-top: 0px;
     display: flex;
     position:fixed;
+    z-index: 3;
     width: 100%;
 }
 
@@ -227,6 +228,7 @@ body{
     
     background-color: transparent;
     border: none;
+    border-radius: 70px;
     height: 4em;
     width: 10em;
     margin-left: 2em;
@@ -239,4 +241,5 @@ body{
     position: relative;
     bottom:2em;
     right: 1em;
+    margin-bottom: 5em;
 }
